@@ -1,0 +1,32 @@
+# ============================================================
+# StreamForge - Backend Dependencies
+# ============================================================
+
+# Kafka client
+kafka-python>=2.0.2,<3.0.0
+
+# Data validation / serialization
+pydantic>=2.7,<3.0
+
+# FastAPI backend
+fastapi>=0.115,<1.0
+uvicorn[standard]>=0.30,<1.0
+
+# Prometheus metrics
+prometheus-client>=0.20,<1.0
+
+# RocksDB state store
+rocksdict>=0.3,<1.0
+
+# Numerical/data processing
+numpy>=2.0,<3.0
+
+# HTTP client
+httpx>=0.27,<1.0
+
+# Testing
+pytest>=8.0,<9.0
+pytest-asyncio>=0.23,<1.0
+
+# Environment/configuration
+python-dotenv>=1.0,<2.0
